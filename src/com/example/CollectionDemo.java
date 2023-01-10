@@ -1,6 +1,7 @@
 package com.example;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class CollectionDemo {
@@ -13,7 +14,12 @@ public class CollectionDemo {
 		list.add("lenovo");
 		list.add("mac");
 		
-		System.out.println(list);
+		//System.out.println(list);
+		
+		Iterator<String> itr=list.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
 	}
 
 }
