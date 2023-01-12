@@ -22,6 +22,7 @@ public class CollectionDemo {
 		//}
 		
 		list.forEach((k)->System.out.println(k));
+		System.out.println("succefuly");
 	}
 
 }
