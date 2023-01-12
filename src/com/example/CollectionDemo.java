@@ -16,10 +16,12 @@ public class CollectionDemo {
 		
 		//System.out.println(list);
 		
-		Iterator<String> itr=list.iterator();
-		while(itr.hasNext()) {
-			System.out.println(itr.next());
-		}
+		//Iterator<String> itr=list.iterator();
+		//while(itr.hasNext()) {
+		//	System.out.println(itr.next());
+		//}
+		
+		list.forEach((k)->System.out.println(k));
 	}
 
 }
