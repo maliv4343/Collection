@@ -22,7 +22,7 @@ public class CollectionDemo {
 		//}
 		
 		list.forEach((k)->System.out.println(k));
-		System.out.println("succefuly");
+		System.out.println("succefuly second time try it ");
 	}
 
 }
